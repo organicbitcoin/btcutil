@@ -9,7 +9,7 @@ import (
 
 	"github.com/organicbitcoin/obtcd/btcec"
 	"github.com/organicbitcoin/obtcd/chaincfg"
-	. "github.com/btcsuite/btcutil"
+	. "github.com/organicbitcoin/btcutil"
 )
 
 func TestEncodeDecodeWIF(t *testing.T) {

@@ -10,10 +10,10 @@ import (
 	"fmt"
 	"math"
 
+	"github.com/organicbitcoin/btcutil/gcs"
 	"github.com/organicbitcoin/obtcd/chaincfg/chainhash"
 	"github.com/organicbitcoin/obtcd/txscript"
 	"github.com/organicbitcoin/obtcd/wire"
-	"github.com/btcsuite/btcutil/gcs"
 )
 
 const (

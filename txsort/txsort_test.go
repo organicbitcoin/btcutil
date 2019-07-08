@@ -12,7 +12,7 @@ import (
 	"testing"
 
 	"github.com/organicbitcoin/obtcd/wire"
-	"github.com/btcsuite/btcutil/txsort"
+	"github.com/organicbitcoin/btcutil/txsort"
 )
 
 // TestSort ensures the transaction sorting works according to the BIP.

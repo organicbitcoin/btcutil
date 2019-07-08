@@ -13,8 +13,8 @@ import (
 
 	"github.com/organicbitcoin/obtcd/chaincfg/chainhash"
 	"github.com/organicbitcoin/obtcd/wire"
-	"github.com/btcsuite/btcutil"
-	"github.com/btcsuite/btcutil/coinset"
+	"github.com/organicbitcoin/btcutil"
+	"github.com/organicbitcoin/btcutil/coinset"
 )
 
 type TestCoin struct {

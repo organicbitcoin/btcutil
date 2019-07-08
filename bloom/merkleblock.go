@@ -8,7 +8,7 @@ import (
 	"github.com/organicbitcoin/obtcd/blockchain"
 	"github.com/organicbitcoin/obtcd/chaincfg/chainhash"
 	"github.com/organicbitcoin/obtcd/wire"
-	"github.com/btcsuite/btcutil"
+	"github.com/organicbitcoin/btcutil"
 )
 
 // merkleBlock is used to house intermediate information needed to generate a

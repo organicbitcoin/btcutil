@@ -216,6 +216,12 @@ func (b *Block) SetHeight(height int32) {
 	b.blockHeight = height
 }
 
+// HasTaxTransactions returns if the block has tax transactions
+func (b *Block) HasTaxTransactions() bool {
+	// TODO:
+	return false
+}
+
 // NewBlock returns a new instance of a bitcoin block given an underlying
 // wire.MsgBlock.  See Block.
 func NewBlock(msgBlock *wire.MsgBlock) *Block {

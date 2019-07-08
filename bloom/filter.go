@@ -12,7 +12,7 @@ import (
 	"github.com/organicbitcoin/obtcd/chaincfg/chainhash"
 	"github.com/organicbitcoin/obtcd/txscript"
 	"github.com/organicbitcoin/obtcd/wire"
-	"github.com/btcsuite/btcutil"
+	"github.com/organicbitcoin/btcutil"
 )
 
 // ln2Squared is simply the square of the natural log of 2.

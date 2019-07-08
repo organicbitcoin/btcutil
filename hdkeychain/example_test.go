@@ -8,7 +8,7 @@ import (
 	"fmt"
 
 	"github.com/organicbitcoin/obtcd/chaincfg"
-	"github.com/btcsuite/btcutil/hdkeychain"
+	"github.com/organicbitcoin/btcutil/hdkeychain"
 )
 
 // This example demonstrates how to generate a cryptographically random seed

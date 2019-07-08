@@ -11,7 +11,7 @@ import (
 	"github.com/organicbitcoin/obtcd/btcec"
 	"github.com/organicbitcoin/obtcd/chaincfg"
 	"github.com/organicbitcoin/obtcd/chaincfg/chainhash"
-	"github.com/btcsuite/btcutil/base58"
+	"github.com/organicbitcoin/btcutil/base58"
 )
 
 // ErrMalformedPrivateKey describes an error where a WIF-encoded private

@@ -13,7 +13,7 @@ import (
 	"testing"
 
 	"github.com/organicbitcoin/obtcd/chaincfg"
-	"github.com/btcsuite/btcutil"
+	"github.com/organicbitcoin/btcutil"
 	"golang.org/x/crypto/ripemd160"
 )
 

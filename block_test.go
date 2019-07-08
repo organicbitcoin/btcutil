@@ -13,7 +13,7 @@ import (
 
 	"github.com/organicbitcoin/obtcd/chaincfg/chainhash"
 	"github.com/organicbitcoin/obtcd/wire"
-	"github.com/btcsuite/btcutil"
+	"github.com/organicbitcoin/btcutil"
 	"github.com/davecgh/go-spew/spew"
 )
 

@@ -13,8 +13,8 @@ import (
 
 	"github.com/organicbitcoin/obtcd/btcec"
 	"github.com/organicbitcoin/obtcd/chaincfg"
-	"github.com/btcsuite/btcutil/base58"
-	"github.com/btcsuite/btcutil/bech32"
+	"github.com/organicbitcoin/btcutil/base58"
+	"github.com/organicbitcoin/btcutil/bech32"
 	"golang.org/x/crypto/ripemd160"
 )
 

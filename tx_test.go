@@ -11,7 +11,7 @@ import (
 	"testing"
 
 	"github.com/organicbitcoin/obtcd/chaincfg/chainhash"
-	"github.com/btcsuite/btcutil"
+	"github.com/organicbitcoin/btcutil"
 	"github.com/davecgh/go-spew/spew"
 )
 
