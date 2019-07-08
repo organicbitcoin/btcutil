@@ -218,7 +218,11 @@ func (b *Block) SetHeight(height int32) {
 
 // HasTaxTransactions returns if the block has tax transactions
 func (b *Block) HasTaxTransactions() bool {
-	// TODO:
+	for _, tx := range b.Transactions() {
+		if tx.IsTaxTx() {
+			return true
+		}
+	}
 	return false
 }
 

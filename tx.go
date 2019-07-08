@@ -92,8 +92,7 @@ func (t *Tx) SetIndex(index int) {
 
 // IsTaxTx returns if the transaction is a tax transaction
 func (t *Tx) IsTaxTx() bool {
-	// TODO:
-	return false
+	return t.MsgTx().Type == 0x11
 }
 
 // NewTx returns a new instance of a bitcoin transaction given an underlying
